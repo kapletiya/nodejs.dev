@@ -118,7 +118,7 @@ const myFunction = () => {
   setTimeout(myFunction, 1000)
 }
 
-setTimeout(
+setInterval(
   myFunction()
 }, 1000)
 ```
